@@ -38,6 +38,7 @@ export const moduleConfig = [
       username: config.get('DB_USERNAME'),
       password: config.get('DB_PASSWORD'),
       database: config.get('DB_NAME'),
+      ssl: config.get('DB_SSL') === 'true',
       synchronize: true,
       logging: true,
       autoLoadEntities: true,
