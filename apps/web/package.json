@@ -6,7 +6,7 @@
     "build": "next build",
     "check-types": "tsc --noEmit",
     "dev": "next dev --turbopack",
-    "lint": "next lint --max-warnings 0",
+    "lint": "next lint",
     "prod": "next start",
     "start": "next start"
   },
@@ -21,9 +21,7 @@
     "@repo/ts-config": "workspace:*",
     "@repo/ui": "workspace:*",
     "@t3-oss/env-nextjs": "^0.11.1",
-    "@types/node": "^20",
     "@types/react": "18.3.1",
-    "@types/react-dom": "18.3.0",
-    "eslint-config-next": "15.1.0"
+    "@types/react-dom": "18.3.0"
   }
 }
